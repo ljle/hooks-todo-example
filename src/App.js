@@ -30,7 +30,7 @@ const todoReducer = (state, action) => {
 const initialTodos = [
   {
     id: 'someId',
-    title: 'Aprender hooks',
+    title: 'Learn hooks',
     completed: false
   }
 ]
@@ -41,7 +41,7 @@ function App () {
   const [todos, dispatch] = useReducer(todoReducer, initialTodos)
   const [backgroundColor, setBackgroundColor] = useState('lightgrey')
 
-  // Holds mutable object reffering to the DOM node
+  // Holds mutable object that doesn't change throughout the component's lifecycle
   const addTodoRef = useRef(null)
 
   const handleToggle = id => {
