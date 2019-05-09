@@ -41,7 +41,7 @@ function App () {
   const [todos, dispatch] = useReducer(todoReducer, initialTodos)
   const [backgroundColor, setBackgroundColor] = useState('lightgrey')
 
-  // Holds mutable object that doesn't change throughout the component's lifecycle
+  // Holds a mutable object that doesn't change throughout the component's lifecycle
   const addTodoRef = useRef(null)
 
   const handleToggle = id => {
@@ -63,7 +63,7 @@ function App () {
 
   const handleChangeBackground = color => setBackgroundColor(color)
 
-  // Used for side effects: think `componentDidMount`, `componentWillUnMount` and `componentDidUpdate` together
+  // Used for side effects: think `componentDidMount`, `componentWillUnMount` and `componentDidUpdate` together in one method
   useEffect(() => {
     document.title = `There are ${todos.length} todos created`
   })
