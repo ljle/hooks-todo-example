@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hooks-todo-example/static/css/main.e41a6a6d.chunk.css",
+    "main.js": "/hooks-todo-example/static/js/main.69820b94.chunk.js",
+    "main.js.map": "/hooks-todo-example/static/js/main.69820b94.chunk.js.map",
+    "runtime~main.js": "/hooks-todo-example/static/js/runtime~main.6e116730.js",
+    "runtime~main.js.map": "/hooks-todo-example/static/js/runtime~main.6e116730.js.map",
+    "static/js/2.50a74ccf.chunk.js": "/hooks-todo-example/static/js/2.50a74ccf.chunk.js",
+    "static/js/2.50a74ccf.chunk.js.map": "/hooks-todo-example/static/js/2.50a74ccf.chunk.js.map",
+    "index.html": "/hooks-todo-example/index.html",
+    "precache-manifest.608b5f969bb5083521ca7d78875aecbc.js": "/hooks-todo-example/precache-manifest.608b5f969bb5083521ca7d78875aecbc.js",
+    "service-worker.js": "/hooks-todo-example/service-worker.js",
+    "static/css/main.e41a6a6d.chunk.css.map": "/hooks-todo-example/static/css/main.e41a6a6d.chunk.css.map"
+  }
+}
